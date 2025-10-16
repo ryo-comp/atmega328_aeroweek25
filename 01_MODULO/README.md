@@ -8,6 +8,8 @@ Visão geral do hardware (microcontrolador, pinos, etc.).
  Ambiente de Programação e Estrutura Básica:
  Instalação/Configuração da IDE do Arduino.
  Estrutura de um sketch: setup() e loop().
+Programação Básica
+ Tipos
 Entradas e saídas
  Prática 0: "Hello World" do Embarcado (Piscar um LED) ao pressionar um botão.
 
