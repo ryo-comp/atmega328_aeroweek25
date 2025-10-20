@@ -32,7 +32,7 @@ O LED é um diodo e devemos ter atenção na forma como é montado (polaridade).
 
 ### 2.2. Conexão do Botão (Pino 2 ou 3)
 
-Usaremos o recurso de **$\text{INPUT\_PULLUP}$** do Arduino, que habilita um resistor interno na entrada.
+Usaremos o recurso de **`\INPUT_PULLUP`** do Arduino, que habilita um resistor interno na entrada.
 
 1.  **Botão:** Insira o *Push Button* na Protoboard.
 2.  **Ligar o Botão:**
