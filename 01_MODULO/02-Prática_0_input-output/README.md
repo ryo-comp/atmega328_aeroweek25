@@ -59,5 +59,5 @@ Abra a $\text{IDE}$ do Arduino, crie um novo sketch e tente elaborar um código 
     Pressione e Segure o botão. O $\text{LED}$ deve **acender**.
     Solte o botão. O $\text{LED}$ deve **apagar**.
 
-## Pratica Opcional 
+## Prática Opcional 
 Modifique a lógica no void loop() para que o $\text{LED}$ inverta o seu estado (liga se estiver desligado e vice-versa) cada vez que o botão for **pressionado e solto**. (Isso exigirá uma variável de estado e técnicas de detecção de borda).
