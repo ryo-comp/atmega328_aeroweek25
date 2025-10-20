@@ -1,18 +1,16 @@
 # Prática 1: Otimizando a Interrupção
 
 ## Objetivos
-    No código do LED controlado por interrupção, usamos a função digitalWrite() dentro da Rotina de Serviço de Interrupção (ISR). Vimos que esta função é mais lenta e menos eficiente para código crítico de tempo, como em uma ISR.
-    O desafio é substituir o digitalWrite() pela manipulação direta de registradores (PORT) para o pino D12, tornando o código da interrupção o mais rápido e eficiente possível.
+
+No código do LED controlado por interrupção, usamos a função digitalWrite() dentro da Rotina de Serviço de Interrupção (ISR). Vimos que esta função é mais lenta e menos eficiente para código crítico de tempo, como em uma ISR. O desafio é substituir o digitalWrite() pela manipulação direta de registradores (PORT) para o pino D12, tornando o código da interrupção o mais rápido e eficiente possível.
     
 ## Passos previstos
 
-    **Passo 1**: Mapeamento de Pinos e Registradores (Onde está o D12?)
+**Passo 1**: Mapeamento de Pinos e Registradores (Onde está o D12?)
     
-        1. Localize a Tabela: Pesquise a tabela de pinagem do Arduino Uno (ou ATmega328) para descobrir a qual Porta Lógica (PORT) o pino digital D12 está conectado.
-        Dica: Lembre-se que as portas lógicas no ATmega328 são nomeadas PORTB, PORTC e PORTD.
+1. Localize a Tabela: Pesquise a tabela de pinagem do Arduino Uno (ou ATmega328) para descobrir a qual Porta Lógica (PORT) o pino digital D12 está conectado. (Dica: Lembre-se que as portas lógicas no ATmega328 são nomeadas PORTB, PORTC e PORTD.)
         
-        2. Identifique o Bit: Uma vez identificada a porta, descubra qual Bit dentro desse registrador corresponde ao pino D12.
-        Exemplo: O pino D7 que usamos na outra atividade correspondia ao Bit 7 do PORTD (PD7). Qual é o Bit do pino D12?
+2. Identifique o Bit: Uma vez identificada a porta, descubra qual Bit dentro desse registrador corresponde ao pino D12. (Exemplo: O pino D7 que usamos na outra atividade correspondia ao Bit 7 do PORTD (PD7). Qual é o Bit do pino D12?)
         
     **Passo 2**: Adaptando a Lógica de Bits
     No código de exemplo do PORTD, usamos os operadores bit a bit (|, &, ~) para ligar e desligar o LED. Agora, precisamos criar a máscara correta para o pino D12.
