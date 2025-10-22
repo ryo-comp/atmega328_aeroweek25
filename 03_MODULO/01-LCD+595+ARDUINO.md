@@ -1,6 +1,4 @@
-# Conteúdo do Módulo 03
-
-## Saídas e comunicação simples
+# M3 Súmario:
 
 * Display de LCD
     * **Uso do display sem I2C.**
@@ -10,7 +8,7 @@
     * A comunicação na USB.
     * Módulo RS485.
     
-### Uso do display sem I2C.
+## Uso do display sem I2C.
 
 O circuito apresentado exibe a interconexão entre um microcontrolador Arduino, o **CI 74HC595** (Shift Register) e um **módulo LCD**. O principal objetivo dessa arquitetura é a **economia de pinos** do Arduino, utilizando o 74HC595 para ampliar as saídas digitais. O Arduino envia os comandos e dados de escrita para o LCD em um formato serial (bit a bit) ao CI 595, que armazena temporariamente (em seu buffer) e disponibiliza o byte completo para a configuração e o acionamento dos pinos de controle e dados do LCD.
 
