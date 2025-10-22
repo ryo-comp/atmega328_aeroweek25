@@ -1,9 +1,9 @@
 # M3 Súmario:
 
 * Display de LCD
-    * **Uso do display sem I2C.**
+    * Uso do display sem I2C.
         * Aumentando saídas com 595.
-    * Uso do display com I2C.
+    * **Uso do display com I2C.**
     * O que é I2C?
     * A comunicação na USB.
     * Módulo RS485.
@@ -16,7 +16,7 @@ A interconexão exibida entre o microcontrolador Arduino e o módulo LCD I2C uti
 
 [Simulação do Circuito no Tinkercad](https://www.tinkercad.com/things/dHr1qUfIbiF-lcd-i2c)
 
-![Usando LCD com o I2C](img/lcd_i2c+arduino.png
+![Usando LCD com o I2C](img/lcd_i2c+arduino.png)
 
 O código aparece a seguir:
 ```cpp
