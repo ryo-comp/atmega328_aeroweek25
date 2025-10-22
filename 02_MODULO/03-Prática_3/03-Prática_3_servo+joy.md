@@ -53,4 +53,9 @@ Com os componentes montados e suas especificações compreendidas, crie o códig
     * Relate e justifique quaisquer mudanças feitas no circuito original do **Passo 1** para garantir o funcionamento do código. Isso pode incluir mudanças nos pinos digitais ou analógicos utilizados.
     
 ## Simulação no WokWi
-[Simulação do controle de um servo com joystick.](https://www.youtube.com/watch?v=SJ3V8ydx3C8)
+
+[Simulação do controle de um servo com joystick.](https://wokwi.com/projects/445467453752422401)
+
+## Vídeo sobre o funcionamento do servo motor
+
+[Animação sobre o funcionamento do servo](https://www.youtube.com/watch?v=SJ3V8ydx3C8)
