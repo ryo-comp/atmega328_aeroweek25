@@ -55,7 +55,9 @@ Estabeleça a comunicação $\text{ISP}$ conectando o $\text{Arduino}$ $\text{Un
 | $\text{5V}$ | $\text{VCC}$ ($\text{Pin } 7$ e $\text{Pin } 20$) | Alimentação |
 | $\text{GND}$ | $\text{GND}$ ($\text{Pin } 8$ e $\text{Pin } 22$) | Terra |
 
-![Arduino ligado ao ATmega328](img/arduino+atmega.avif)
+Veja a montagem sugerida abaixo. Não esqueça de retirar o ATmega328 da placa do arduino. Observe que temos dois ATmega328, um do arduino e outro puro sem código algum. A intenção é preparar o ATmega328 puro para receber o código do sistema embarcado.  
+
+![Arduino ligado ao ATmega328](img/arduino+atmega.png)
 
 [Referência](https://images.prismic.io/circuito/b44666697793fdab035838ad33b4e5336d421103_at328pbootloader.png?auto=compress,format)
 
