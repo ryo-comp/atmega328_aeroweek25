@@ -1,4 +1,4 @@
-# M3 Súmario:
+# M3 Sumário:
 
 * Display de LCD
     * Uso do display sem I2C.

@@ -1,4 +1,4 @@
-# M3 Súmario:
+# M3 Sumário:
 
 * Display de LCD
     * **Uso do display sem I2C.**
@@ -10,7 +10,11 @@
     
 ## Uso do display sem I2C.
 
-O circuito apresentado exibe a interconexão entre um microcontrolador Arduino, o **CI 74HC595** (Shift Register) e um **módulo LCD**. O principal objetivo dessa arquitetura é a **economia de pinos** do Arduino, utilizando o 74HC595 para ampliar as saídas digitais. O Arduino envia os comandos e dados de escrita para o LCD em um formato serial (bit a bit) ao CI 595, que armazena temporariamente (em seu buffer) e disponibiliza o byte completo para a configuração e o acionamento dos pinos de controle e dados do LCD.
+O circuito apresentado exibe a interconexão entre um microcontrolador Arduino, o **CI 74HC595** (Shift Register) e um **módulo LCD**. O principal objetivo dessa arquitetura é a **economia de pinos** do Arduino, utilizando o 74HC595 para ampliar as saídas digitais. O Arduino envia os comandos e dados de escrita para o LCD em um formato serial (bit a bit) ao CI 595, que armazena temporariamente (em seu buffer) e disponibiliza o byte completo para a configuração e o acionamento dos pinos de controle e dados do LCD. 
+
+Para visualizar e testar o circuito, acesse a simulação completa no **Tinkercad** clicando no link abaixo:
+
+[Simulação do Circuito no Tinkercad](https://www.tinkercad.com/things/cyCSrCmWMQF-lcd)
 
 ![Usando LCD sem o I2C](img/lcd_bare.png)
 
