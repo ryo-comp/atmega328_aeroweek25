@@ -30,7 +30,9 @@ O primeiro passo é montar o circuito básico de suporte que permite o funcionam
     * Conecte um resistor de **$10 \text{ kOhm}$** do pino **$\text{RESET}$ ($\text{Pin } 1$**) para **$\text{5V}$** ($\text{VCC}$).
 
 Veja uma montagem sugerida.
+
 ![Atmega328 na forma autônoma](img/standalone.png)
+
 [Referência](https://www.hackster.io/ahmedibrrahim/atmega328p-standalone-board-77044d)
 
 ### 2. Preparação do Arduino Uno como Programador ISP
@@ -54,6 +56,8 @@ Estabeleça a comunicação $\text{ISP}$ conectando o $\text{Arduino}$ $\text{Un
 | $\text{GND}$ | $\text{GND}$ ($\text{Pin } 8$ e $\text{Pin } 22$) | Terra |
 
 ![Arduino ligado ao ATmega328](img/arduino+atmega.avif)
+
+[Referência](https://images.prismic.io/circuito/b44666697793fdab035838ad33b4e5336d421103_at328pbootloader.png?auto=compress,format)
 
 ### 4. Gravação do Bootloader
 
